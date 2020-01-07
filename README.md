@@ -27,7 +27,16 @@ graphical interface and useful collaboration features.
 
 ## Lab: Creating & Pushing
 
-Now create your own GitHub repository and push your master branch with the command `git push origin master`.
+Now create your own GitHub repository:
+
+Make sure to select Public, and _do not_ check the box asking to initialize with
+a new README.
+
+Your Create New Repository screen will look like:
+
+![github-create-repo](https://i.imgur.com/KtNn3ca.png)
+
+And push your master branch with the command `git push origin master`.
 
 The last time we saw Ned Stark, we had just written his fate.  Below his story
 write the beginning of another character's story.  For instance:
