@@ -21,13 +21,13 @@ we are going to use Github to manage our project.
 
 ## Demo: Linking with GitHub
 
-So we have a local repository. Watch as I create a GitHub repository. Why
-GitHub? So we can backup our code online. It also provides us with a useful
+So we have a local repository. Watch as I create a Git Enterprise repository. Why
+Git Enterprise? So we can backup our code online. It also provides us with a useful
 graphical interface and useful collaboration features.
 
 ## Lab: Creating & Pushing
 
-Now create your own GitHub repository:
+Now create your own Git Enterprise repository:
 
 - Name the repository `game-of-gits-<your name>`
 - Set repo to `Public`
@@ -64,8 +64,8 @@ once, stop.
 
 ## Pulling: Updating Your Local
 
-Each of you should now have updated code on GitHub, but your local Git repo
-will be behind.  We need to get the latest code off of GitHub.  We can do this
+Each of you should now have updated code on Git Enterprise, but your local Git repo
+will be behind.  We need to get the latest code off of Git Enterprise.  We can do this
 by pulling the changes that we merged.  The command to do this is:
 
 `git pull origin master`
@@ -73,18 +73,18 @@ by pulling the changes that we merged.  The command to do this is:
 This gets the latest copy of our code off of the master branch of our original
 repository.
 
-## Editing on GitHub
+## Editing on Git Enterprise
 
-Hey! See that little pencil button on the top of a page on GitHub!? That looks
+Hey! See that little pencil button on the top of a page on Git Enterprise!? That looks
 like it's used to change the text and will help us, right?!
 
 ![Edit Pencil](https://i.imgur.com/Drt2g9u.png)
 
 Wrong! DON'T EVER USE THAT! Regardless of how small the changes are, you never
-want to edit ON GitHub. You always want to make changes locally and push them.
+want to edit ON Git Enterprise. You always want to make changes locally and push them.
 
 The reason we never want to do that is if you edit in the cloud, our local repo
-and GitHub repo become out of sync and it breaks convention.
+and Git Enterprise repo become out of sync and it breaks convention.
 
 ## Additional Resources
 
