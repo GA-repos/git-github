@@ -2,15 +2,13 @@
 
 ## Markdown
 
-Use [remark-lint](https://github.com/wooorm/remark-lint). There's a nice [plugin
-for Atom](https://atom.io/packages/linter-markdown). Have a look at the [default
-style rules](https://github.com/wooorm/remark-lint/blob/master/doc/rules.md) and
-our own [.remarkrc](.remarkrc) for non-default configuration options. These
-rules are selected for readability of source code compatibility with GitHub
-wiki features.
+Use [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli).
+Our rules are specified in `.markdownlint.json` to have a full description of
+the rules visit [markdownlint-cli Rules](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md).
 
-### HTML
+To run linter use the `markdownlint` command followed by
+the files you want to run the linter against. If I wanted to check README.md I would:
 
-Please refrain from using HTML inside markdown files, as a rule. Sometimes,
-using HTML is the only way to accomplish something, like including an image with
-a custom width attribute.
+```bash
+markdownlint README.md
+```

@@ -37,7 +37,7 @@ Your Create New Repository screen will look like:
 
 ![github-create-repo](https://i.imgur.com/KtNn3ca.png)
 
-Push your master branch with the command `git push origin master`.
+Push your master branch with the command `git push origin main`.
 
 The last time we saw Ned Stark, we had just written his fate.  Below his story
 write the beginning of another character's story.  For instance:
@@ -47,8 +47,8 @@ write the beginning of another character's story.  For instance:
 
 Push the changes you made.
 
-Also, push your `dream-story` branch.  We pushed our `master` branch with the
-command `git push origin master`.  Can you figure out how to push our
+Also, push your `dream-story` branch.  We pushed our `main` branch with the
+command `git push origin main`.  Can you figure out how to push our
 `dream-story` branch?
 
 ## Demo: Adding to Your Story
@@ -65,23 +65,24 @@ once, stop.
 ## Pulling: Updating Your Local
 
 Each of you should now have updated code on Git Enterprise, but your local Git repo
-will be behind.  We need to get the latest code off of Git Enterprise.  We can do this
-by pulling the changes that we merged.  The command to do this is:
+will be behind.  We need to get the latest code off of Git Enterprise.
+We can do this by pulling the changes that we merged. The command to do this is:
 
-`git pull origin master`
+`git pull origin main`
 
 This gets the latest copy of our code off of the master branch of our original
 repository.
 
 ## Editing on Git Enterprise
 
-Hey! See that little pencil button on the top of a page on Git Enterprise!? That looks
-like it's used to change the text and will help us, right?!
+Hey! See that little pencil button on the top of a page on Git Enterprise!?
+That looks like it's used to change the text and will help us, right?!
 
 ![Edit Pencil](https://i.imgur.com/Drt2g9u.png)
 
 Wrong! DON'T EVER USE THAT! Regardless of how small the changes are, you never
-want to edit ON Git Enterprise. You always want to make changes locally and push them.
+want to edit ON Git Enterprise. You always want to make changes locally
+and push them.
 
 The reason we never want to do that is if you edit in the cloud, our local repo
 and Git Enterprise repo become out of sync and it breaks convention.
@@ -96,5 +97,5 @@ and Git Enterprise repo become out of sync and it breaks convention.
 ## [License](LICENSE)
 
 1. All content is licensed under a CC­BY­NC­SA 4.0 license.
-1. All software code is licensed under GNU GPLv3. For commercial use or
+2. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
